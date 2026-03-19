@@ -9,6 +9,7 @@
     <RootNamespace>LzmaAlone</RootNamespace>
     <AssemblyName>Lzma#</AssemblyName>
     <WarningLevel>4</WarningLevel>
+    <GenerateTargetFrameworkAttribute>false</GenerateTargetFrameworkAttribute>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
