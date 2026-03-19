@@ -3666,6 +3666,22 @@
 					"Pitch": 0.5000
 				}
 			]
+		},
+		{
+			"Class": 15,
+  			"ClassName": "SCRIPTING_MATRIX",
+  			"Type": 3,
+  			"TypeName": "H",
+  			"motors": [
+				{ "Number": 1, "TestOrder": 1, "Rotation": "CW",  "Roll": -0.484, "Pitch":  0.852 },
+				{ "Number": 2, "TestOrder": 5, "Rotation": "CW",  "Roll":  0.484, "Pitch": -1.000 },
+				{ "Number": 3, "TestOrder": 2, "Rotation": "CCW", "Roll": -0.484, "Pitch":  0.337 },
+				{ "Number": 4, "TestOrder": 4, "Rotation": "CCW", "Roll": -0.484, "Pitch": -1.000 },
+				{ "Number": 5, "TestOrder": 8, "Rotation": "CCW", "Roll":  0.484, "Pitch":  0.852 },
+				{ "Number": 6, "TestOrder": 6, "Rotation": "CCW", "Roll":  0.484, "Pitch": -0.189 },
+				{ "Number": 7, "TestOrder": 7, "Rotation": "CW",  "Roll":  0.484, "Pitch":  0.337 },
+				{ "Number": 8, "TestOrder": 3, "Rotation": "CW",  "Roll": -0.484, "Pitch": -0.189 }
+			]
 		}
 	]
 }
