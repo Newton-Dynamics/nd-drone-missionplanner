@@ -4116,6 +4116,28 @@ namespace MissionPlanner
                 return true;
             }
 
+
+            if (keyData == (Keys.Control | Keys.R)) // reboot autopilot
+            {
+                if (comPort.BaseStream.IsOpen)
+                {
+                    if (CustomMessageBox.Show("Are you sure you want to reboot the autopilot?", "Reboot",
+                            MessageBoxButtons.YesNo) == (int)DialogResult.Yes)
+                    {
+                        try
+                        {
+                            comPort.doReboot(false, true);
+                        }
+                        catch
+                        {
+                            CustomMessageBox.Show(Strings.CommandFailed, Strings.ERROR);
+                        }
+                    }
+                }
+
+                return true;
+            }
+
             if (keyData == (Keys.Control | Keys.W)) // test ac config
             {
                 new PropagationSettings().Show();
